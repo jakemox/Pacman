@@ -1,13 +1,12 @@
 class Bomb {
-    constructor(index, xpos, ypos) {
-        this.index = index;
+    constructor(xpos, ypos) {
         this.xpos = xpos;
         this.ypos = ypos;
     }
 
     updateHTML() {
         // this.render();
-        const bomb = document.getElementById(`bomb-${this.index}`);
+        const bomb = document.getElementById(`bomb`);
         bomb.style.left = `${this.xpos * 64}px`;
         bomb.style.top = `${this.ypos * 64}px`
       }
@@ -21,7 +20,7 @@ class Bomb {
     // }
 
     death() {
-        const bomb = document.getElementById(`bomb-${this.index}`);
-        bomb.className = `pacman tomb`;
+        const bomb = document.getElementById(`bomb`);
+        bomb.className = 'pacman tomb';
     }
 }

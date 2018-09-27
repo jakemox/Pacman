@@ -11,8 +11,6 @@ body {
 }
 
 .board {
-  width: 640px;
-  height: 640px;
   position: relative;
   background-image: url('../img/tile-empty.png');
 }

@@ -1,0 +1,110 @@
+.pacman {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.pac-dark-bclose {
+  background-image: url('../img/pac-dark-bclose.png')
+}
+
+.pac-dark-bopen {
+  background-image: url('../img/pac-dark-bopen.png')
+}
+
+.pac-dark-lclose {
+  background-image: url('../img/pac-dark-lclose.png')
+}
+
+.pac-dark-lopen {
+  background-image: url('../img/pac-dark-lopen.png')
+}
+
+.pac-dark-rclose {
+  background-image: url('../img/pac-dark-rclose.png')
+}
+
+.pac-dark-ropen {
+  background-image: url('../img/pac-dark-ropen.png')
+}
+
+.pac-dark-tclose {
+  background-image: url('../img/pac-dark-tclose.png')
+}
+
+.pac-dark-topen {
+  background-image: url('../img/pac-dark-topen.png')
+}
+
+.pac-light-bclose {
+  background-image: url('../img/pac-light-bclose.png')
+}
+
+.pac-light-bopen {
+  background-image: url('../img/pac-light-bopen.png')
+}
+
+.pac-light-lclose {
+  background-image: url('../img/pac-light-lclose.png')
+}
+
+.pac-light-lopen {
+  background-image: url('../img/pac-light-lopen.png')
+}
+
+.pac-light-rclose {
+  background-image: url('../img/pac-light-rclose.png')
+}
+
+.pac-light-ropen {
+  background-image: url('../img/pac-light-ropen.png')
+}
+
+.pac-light-tclose {
+  background-image: url('../img/pac-light-tclose.png')
+}
+
+.pac-light-topen {
+  background-image: url('../img/pac-light-topen.png')
+}
+
+.pac-medium-bclose {
+  background-image: url('../img/pac-medium-bclose.png')
+}
+
+.pac-medium-bopen {
+  background-image: url('../img/pac-medium-bopen.png')
+}
+
+.pac-medium-lclose {
+  background-image: url('../img/pac-medium-lclose.png')
+}
+
+.pac-medium-lopen {
+  background-image: url('../img/pac-medium-lopen.png')
+}
+
+.pac-medium-rclose {
+  background-image: url('../img/pac-medium-rclose.png')
+}
+
+.pac-medium-ropen {
+  background-image: url('../img/pac-medium-ropen.png')
+}
+
+.pac-medium-tclose {
+  background-image: url('../img/pac-medium-tclose.png')
+}
+
+.pac-medium-topen {
+  background-image: url('../img/pac-medium-topen.png')
+}
+
+.bomb {
+  background-image: url('../img/bomb.png')
+}
+
+.tomb {
+  background-image: url('../img/tombstone.png')
+}
